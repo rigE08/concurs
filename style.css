@@ -1,0 +1,105 @@
+body {
+    background-color: #333;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.query {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10%;
+}
+
+.tableInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(155, 155, 155);
+}
+
+table {
+    border: solid 1px rgb(105, 105, 105);
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+table thead th {
+    background-color: #999999;
+    border: solid 1px rgb(105, 105, 105);
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+table tbody td {
+    border: solid 1px rgb(105, 105, 105);
+    color: rgb(155, 155, 155);
+    padding: 10px;
+}
+
+.formIndex {
+    background-color: #999999;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 10px;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.formIndex form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formIndex form label {
+    color: #ffffff;
+    padding: 10px 0 2px 0;
+}
+
+.formIndex form input {
+    background-color: #b3b3b3;
+    border: solid 1px rgb(105, 105, 105);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formIndex form select {
+    background-color: #b3b3b3;
+    border: solid 1px rgb(105, 105, 105);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3faf71;
+    border: solid 1px rgb(105, 105, 105);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #5c5c5c;
+    border: solid 1px rgb(105, 105, 105);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
